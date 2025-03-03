@@ -1,0 +1,66 @@
+body.body1 {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #2B3049;
+}
+
+figure.fotocapa {
+    
+    border: 2px solid #8a8784 ; border-radius: 15px;
+}
+
+h1.tx {
+    font-family: fantasy; color: #EC861F;
+    font-size: 50px;
+    text-shadow: rgb(37, 37, 37) 0.05em 0.05em;
+}
+
+p.tp {
+    color: #EC861F; font-size: 20px;
+    text-shadow:rgb(27, 27, 27) 0.03 0.03em;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+h2,h3,h6.tz {
+    font-family: fantasy; color: #EC861F;
+    font-size: 20px;
+    
+}
+
+ul.tl {
+    list-style-type: disc   ;
+    color: #EC861F;
+    text-align: left;
+    margin: auto;
+    width: 550px;
+    scale: 110%;
+}
+
+p.pp {
+    font-size: 15px;
+    color: #EC861F;
+}
+
+img.imleft {
+    display: flex;
+    align-items: left;
+    width: 50%;
+    max-width: 400px;
+    margin: 10%;
+    border-style: solid; border-radius: 15px; color: #8a8784; border-width: 10px;
+}
+
+img.immid {
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    width: ;
+    max-width: 400px;
+    margin: 10%;
+    border-style: solid; border-radius: 15px; color: #8a8784; border-width: 10px;
+}
