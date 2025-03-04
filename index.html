@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Best MMos">
+    <meta name="author" content="Alex Robert and Luiz Felipe">
+    <link rel="icon" href="/imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Best MMOs</title>
 </head>
+
 <body class = "body1">
     <figure class = "fotocapa">
-    <img src= "capa2.png" alt="capa" >
+    <img src= "/imagens/capa2.png" alt="capa">
     </figure>
 
     <h1 class = "tx">Os MMORPGS mais bem falados de 2024</h1>
@@ -18,23 +23,31 @@
     
     <ul class ="tl">
     <li><b>Final Fantasy XIV</b><i> (2010) -</i> "3.5 milhões de jogadores ativos por mês"</li>
-    <li> <b>World of Warcraft</b><i> (2004) -</i>  "3 milhões de jogadores ativos por mês"</li>
+    <li><b>World of Warcraft</b><i> (2004) -</i>  "3 milhões de jogadores ativos por mês"</li>
     <li><b>Star wars The old Republic</b><i> (2011) -</i> "2.2 milhões de jogadores ativos por mês"</li>
     <li><b>Runescape</b><i> (2001) -</i> "1.8 milhões de jogadores ativos por mês"</li>
     <li><b>Guild Wars 2</b><i> (2012) -</i> "1.5 milhões de jogadores ativos por mês"</li>
     </ul>
-    <br>
-    <br>
      
     <p class = "tp">A lista acima é uma prova cabal de que os mmorpg veteranos estão ainda com tudo! Até mesmo aqueles com mais de 20 anos de idade, o que é incrível, pois dificilmente vemos um fluxo tão intenso de jogadores assim nos MMOs mais modernos.</p>
-    <br>
-    <br>
-    <br>
     <h3 class ="tz"> Aqui abaixo, temos alguns dos MMO's mais bem falados dos últimos meses: </h3>
-    <p class = "pp">clique em cada um deles para ler um breve preview e ver o </p>
+    <p class = "pp">Clique em cada um deles para ler um breve preview e ver os detalhes:</p>
 
-    <img class="imleft" src ="gw2.png" width="320" alt ="Guild Wars 2">
-    <img class="immid" src="wow.png" width="320" alt ="World of Warcraft">
-    
+    <div class="container">
+        <div class="imagens">
+            <img class="imagem" src="/imagens/gw2.png" alt="Guild Wars 2" 
+             data-texto="Guild Wars 2 é um MMORPG desenvolvido pela ArenaNet." onclick="abrirModal(this)">
+            <img class="imagem" src="/imagens/wow.png" alt="World of Warcraft" 
+             data-texto="World of Warcraft é um MMORPG criado pela Blizzard Entertainment." onclick="abrirModal(this)">
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
 </body>
 </html>
