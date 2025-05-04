@@ -35,19 +35,7 @@ Cada jogo listado possui um link que direciona o usuário para seu site oficial,
 
 # 📁 Estrutura do Projeto
 
-📁 bestmmos-main/
-│
-├── 📂 imagens/                # Imagens e ícones utilizados no site
-│   └── (capa, ícones, screenshots dos jogos)
-│
-├── 📂 scripts/                # Scripts JavaScript
-│   └── script.js
-│
-├── 📂 styles/                 # Estilos CSS
-│   └── styles.css
-│
-├── index.html              # Página principal do site
-└── README.md               # Documentação do projeto
+![alt text](image.png)
 
 
 # 👥 Autores
