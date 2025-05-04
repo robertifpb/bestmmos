@@ -1,44 +1,55 @@
-# bestmmos
-Projeto Avaliativo de HTML/CSS, como requisito parcial da 2° nota, da Disciplina de Linguagem de Marcação.
+
+# 🧙‍♂️ BestMMORPGs - Projeto Lading page ⚔️
+
+Este é um projeto de landing page, desenvolvido com o objetivo de informar os internautas sobre os melhores jogos do gênero MMORPG e auxiliá-los na escolha de qual jogo vale mais a pena investir tempo e interatividade.
+
+# ✅Funcionalidades
+
+🎮 Catálogo de MMORPGs:
+
+O site apresenta uma seleção dos MMORPGs mais populares de 2024, incluindo.
+
+📊 Tabela Comparativa:
+
+Uma tabela detalha as vantagens e desvantagens de cada jogo, abordando aspectos como: otimização para PCs modestos, Modelo de monetização (gratuito ou pago), entre outros.
+
+🗳️ Formulário de Votação:
+
+Ao final da página, há um formulário que convida os visitantes a votar em qual MMORPG pretendem jogar em 2025. As opções incluem os jogos listados anteriormente. Embora o formulário esteja presente, não há indicação de que os votos sejam armazenados ou processados, sugerindo uma implementação básica.
+
+🌐 Links para Sites Oficiais:
+
+Cada jogo listado possui um link que direciona o usuário para seu site oficial, permitindo que obtenham mais informações diretamente da fonte.
+
+# 🛠️ Tecnologias Utilizadas
+
+•  HTML5 – Estrutura semântica do site
+
+•  CSS3 – Estilização visual responsiva
+
+•  JavaScript – Interatividade, incluindo o modal e outras ações
+
+•  Figma – Prototipagem e edição de ícones/gráficos
+
+•	Media Queries: Usadas para adaptar o layout em diferentes resoluções de tela.
+
+# 📁 Estrutura do Projeto
+
+📁 bestmmos-main/
+│
+├── 📂 imagens/                # Imagens e ícones utilizados no site
+│   └── (capa, ícones, screenshots dos jogos)
+│
+├── 📂 scripts/                # Scripts JavaScript
+│   └── script.js
+│
+├── 📂 styles/                 # Estilos CSS
+│   └── styles.css
+│
+├── index.html              # Página principal do site
+└── README.md               # Documentação do projeto
 
 
+# 👥 Autores
 
-#resumo do projeto
-
-O Catálogo de MMORPGs foi criado para informar os internautas sobre os melhores jogos do gênero e quais valem mais a pena investir o tempo, no catálogo, é possível os jogos e até ler uma breve sinopse de cada um. Além do mais, foi feito uma tabela de vantagens e desvantagens de cada jogo, para deixar as informações mais estruturadas e ajudar os internautas em suas decisões.
-
-
-#executando o site
-
-O site pode ser executado através do link: https://robertifpb.github.io/bestmmos/ ou ser baixado diretamente no repositório do Github, através desse link: https://github.com/robertifpb/bestmmos
-
-
-#tecnologias utilizadas
-
-HTML5 e CSS3 (para estruturar o site e estilizar)
-Javascript (para interatividade do site)
-Figma (para montar o escopo do site e editar os ícones e elementos gráficos)
-
-#estrutura do projeto
-
-/bestmmos-main
-|---Imagens
-|   |---- imagens e ícones do projeto
-|   index.html
-|   style.css
-|   script.js
-|   README.md
-
-
-#informações relevantes
-
-O site consegue direcionar os leitores para o site de cada jogo que ele desejar saber mais. No final do site, há também um formulário perguntando aos leitores qual daqueles jogos disponíveis no catálogo, ele pretende investir o seu tempo
-
-#autores
-Luiz Felipe Alves de Sena
-Álex Robert
-
-
-
-
-
+O projeto foi desenvolvido por Álex Robert e Luiz Felipe Alves de Sena, sob orientação do Professor Alex Cabral, durante a disciplina de Linguagem de Marcação, como pré-requisito para obtenção da 3º nota.
