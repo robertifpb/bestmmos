@@ -1,3 +1,4 @@
+// Função Modal
 function abrirModal(imagem) {
   document.querySelector(".modal").classList.add("active");
   document.querySelector("#modalTitle").innerText = imagem.getAttribute("alt");
